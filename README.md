@@ -1,6 +1,6 @@
 # vue_mvvm
 简版双向数据绑定
-##了解Object.defineProperty()：
+## 了解Object.defineProperty()：
 这个API是实现双向绑定的核心，最主要的作用是重写数据的get、set方法，现在的三大框架(vue react angular)也都是通过这个API来实现双向绑定的。
 
 ## 使用方式：
@@ -53,7 +53,7 @@ mvvm系列的双向绑定，关键步骤：
 实现Watch用于连接Observer和Compile，能够订阅并收到每个属性变动的通知，执行指令绑定的相应回调函数，从而更新视图。
 mvvm入口函数，整合以上三者。
 流程图：
-<img src="https://github.com/OBKoro1/articleImg_src/blob/master/weibo_img_move/005Y4rCogy1fsl7dygfovj30ka0augpd.jpg?raw=true" />
+<img src="https://img-blog.csdnimg.cn/20200106112032843.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0plbnNlbl9ZYW8=,size_16,color_FFFFFF,t_70" />
 
 这部分讲的很清楚，现在有点懵逼也没关系，看完代码，自己copy下来玩一玩之后，回头再看实现思路，相信会有收获的。
 
