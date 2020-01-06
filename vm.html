@@ -45,28 +45,7 @@
             proxy.text = e.target.value;
         });
     </script>
-    <!-- <script>
-            // 数据
-            const data = {
-                text: 'default'
-            };
-            const input = document.getElementById('input');
-            const span = document.getElementById('span');
-            console.log(input)
-            // 数据劫持
-            Object.defineProperty(data, 'text', {
-                // 数据变化 -----=> 修改视图
-                set(newVal) {
-                    console.log(newVal)
-                    input.value = newVal ? newVal : data.text;
-                    span.innerHTML = newVal ? newVal : data.text;
-                }
-            });
-            // 视图更改 -----=> 数据变化
-            input.addEventListener('keyup', function (e) {
-                data.text = e.target.value;
-            });   
-        </script> -->
+  
 </body>
 
 </html>
